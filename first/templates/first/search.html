@@ -1,0 +1,16 @@
+<center>
+{% if searched %}
+    <h1> You Searched For {{searched}} </h1>
+    <br>
+    {% for Game in games %}
+       {{Game.title}} <br> {{Game.description}} <br>
+    {% endfor %} 
+
+
+{% else %} 
+    <h1>You forgot to search for a game </h1>
+    <a href="{% url 'index' %}">Go to home page</a>
+{% endif %} 
+
+
+</center>
