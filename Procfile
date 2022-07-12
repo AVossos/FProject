@@ -1,1 +1,1 @@
-web: gunicorn --chdir app first.wsgi:application --log-file - --log-level debug
+web: gunicorn --chdir app FinalProject.wsgi:application --log-file - --log-level debug
