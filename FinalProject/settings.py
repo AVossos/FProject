@@ -1,3 +1,6 @@
+import os
+import django_heroku
+
 """
 Django settings for FinalProject project.
 
