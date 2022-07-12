@@ -1,0 +1,102 @@
+
+
+/*  ================= Styles for BUTTON - Start  ================= */
+.button {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  top: 50%;
+  left: 50%;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* =================  Styles for BUTTON - End  ================= */
+
+
+/*  ================= Styles for CAROUSEL - Start  ================= */
+
+.carousel-item{
+  width: 100%;
+  max-height: 600px; 
+}
+
+.carousel-caption{
+  color: white;
+}
+
+
+/*  ================= Styles for CAROUSEL - End  ================= */
+
+
+/*  ================= Styles for Social Media - Start  ================= */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* =================  Styles for Social Media - End  ================= */
+
+
+/*  ================= Styles for List (Bottom of Home Page Game Section) - Start  ================= */
+.list-group-item:hover { 
+  background-color: #33AFFF;  
+}
+
+.media{
+  border-style: solid;
+  margin: 25px 50px;  /* top and bottom margins are 25px, right and left margins are 50px */
+}
+
+.list-group{
+  border-style: solid;
+  border-radius: 25px;  /* to make it have round corners*/
+  margin: 25px 50px;    /* margins top & bottom: 25px, right & left: 50px*/
+  background-color: #33AFFF;
+}
+
+/*  ================= Styles for List (Bottom of Home Page Game Section) - End  ================= */
+
+
+.header{
+  text-align: center;
+}
+
+
+.container_hero .iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(/first/static/img/insidephone.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
