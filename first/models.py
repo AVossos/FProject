@@ -10,6 +10,7 @@ class Game(models.Model):
     platform = models.CharField(max_length=1, choices=CONSOLE_CHOICES, blank=False)
     gametype = models.CharField(max_length=50, blank=True)
     #image = models.ImageField(upload_to='img', height_field=1024, width_field=1024, max_length=100)
+    
 
 
 
