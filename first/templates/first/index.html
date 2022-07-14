@@ -117,13 +117,21 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up Form</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="form-group">
-          <label class="form-control-label" for="name">Name:</label>
-          <input type="text" class="form-control" id="name">
+          <label class="form-control-label" for="fname">First Name:</label>
+          <input type="text" class="form-control" id="fname">
+        </div>
+        <div class="form-group">
+          <label class="form-control-label" for="lname">Last Name:</label>
+          <input type="text" class="form-control" id="lname">
+        </div>
+        <div class="form-group">
+          <label class="form-control-label" for="uname">Username:</label>
+          <input type="text" class="form-control" id="uname" placeholder="this name will be seen by other people">
         </div>
         <div class="form-group">
           <label class="form-control-label" for="email">Email:</label>
@@ -132,10 +140,16 @@
         <div class="form-group">
           <label class="form-control-label" for="password">Password:</label>
           <input type="password" class="form-control" id="password">
+        
           <div id="passwordHelp" class="form-text">Must be at least 8 characters long.<br>
             Must contain at least one uppercase letter.
           </div>
-          
+          <br>
+          <div class="form-group">
+            <label class="form-control-label" for="gender">Gender:</label>
+              <label> Male <input type="radio" name="gender" value="male" /></label>
+              <label> Female <input type="radio" name="gender" value="female" /></label>
+          </div>
         </div>
         
         <h5 class="mt-3 mb-2">Which Console(s) Interest You Most?</h5>
